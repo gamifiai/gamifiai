@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# GAMIFIA - Company Website
 
-# Run and deploy your AI Studio app
+This repository contains the source code for the GAMIFIA company landing page. It is a modern, responsive, single-page website built to showcase the company's AI-driven gamification services for the retail and restaurant industries.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1uoE3Ddo_9L524v_h-DeNkLLYw8AIX-vY
+-   **Hero Section:** A compelling introduction with a primary call-to-action.
+-   **About Us:** Details about the company's mission and value proposition.
+-   **Services/Features:** A breakdown of the key features offered.
+-   **How It Works:** A simple 3-step guide to getting started.
+-   **Testimonials:** Social proof from satisfied clients.
+-   **Contact Form:** A functional form for demo requests and inquiries.
+-   **Responsive Design:** Fully optimized for display on desktops, tablets, and mobile devices.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+-   **React:** For building the user interface.
+-   **TypeScript:** For static typing and improved developer experience.
+-   **Tailwind CSS:** For styling, loaded via a CDN for simplicity.
+-   **Babel Standalone:** To transpile JSX/TSX directly in the browser, eliminating the need for a local build step.
 
+## 🚀 Deployment to GitHub Pages
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This project is configured for easy deployment to GitHub Pages.
+
+1.  **Create a GitHub Repository:**
+    If you haven't already, create a new repository on GitHub and push the project files to it.
+
+2.  **Enable GitHub Pages:**
+    -   In your repository, go to **Settings** > **Pages**.
+    -   Under the "Build and deployment" section, select the **Source** as **Deploy from a branch**.
+    -   Choose the branch you want to deploy from (usually `main` or `master`).
+    -   Select the folder as `/(root)`.
+    -   Click **Save**.
+
+3.  **Access Your Site:**
+    GitHub will build and deploy your site. After a minute or two, it will be available at a URL like:
+    `https://<your-username>.github.io/<your-repository-name>/`
+
+That's it! Your website is now live.

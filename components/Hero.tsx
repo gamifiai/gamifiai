@@ -48,8 +48,8 @@ const Hero: React.FC = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.pexels.com/photos/275033/pexels-photo-275033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="A vibrant arcade room filled with glowing classic game machines."
+          src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="A robot hand touching a glowing digital brain, representing artificial intelligence."
         />
       </div>
     </section>
